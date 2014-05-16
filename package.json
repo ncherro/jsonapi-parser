@@ -1,0 +1,41 @@
+{
+  "name": "jsonapi-parser",
+  "description": "Converts json:api formatted json to backbone-friendly json",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ncherro/jsonapi-parser",
+  "author": {
+    "name": "Nick Herro",
+    "email": "ncherro@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ncherro/jsonapi-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ncherro/jsonapi-parser/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ncherro/jsonapi-parser/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
